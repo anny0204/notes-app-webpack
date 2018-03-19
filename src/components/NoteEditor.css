@@ -1,0 +1,26 @@
+.note_editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.textarea {
+    width: 400px;
+    margin: 3px;
+}
+
+.add_btn {
+    padding: 4px 20px;
+    color: cornflowerblue;
+    border-radius: 3px;
+    transition: all 0.3px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: darkcyan;
+}
+
+.add_btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: cornflowerblue;
+}
